@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>login</title>
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <section class="bg">
+    <div class="container vh-100 d-flex justify-content-center align-items-center">
+      <!-- sing in  -->
+      <div id="singIN" class="singIn row border rounded-4 shadow-lg text-center w-75 p-5">
+        <div class="col-lg-6 col-md-12">
+          <h2 class="text-success fs-1 fw-bold">sing in</h2>
+          <div class="inputs w-100 m-auto">
+            <div class="my-1 py-2 w-100">
+              <input id="EmailSingIn" class="form-control" type="text" placeholder="User Email" />
+            </div>
+            <div id="alertLogin" class="d-none">
+              <small class="alert bg-danger-subtle p-1 m-0 fw-bold">Email Or Password Un Corrict</small>
+            </div>
+
+            <div class="my-2 py-2 w-100s">
+              <input id="passSingIn" class="form-control" type="password" placeholder="user password" />
+            </div>
+            <div id="alertEmpty" class="d-none">
+              <small class="alert bg-danger p-1 text-white">ALL Inputs are Requierd</small>
+            </div>
+
+            <button id="btnSingIn" class="my-2 btn btn-success w-50">
+              login
+            </button>
+          </div>
+          <div class="text">
+            <p class="py-2 fs-5 m-0 fw-bold opacity-75">
+              or sing in by socile medai
+              <button class="btn fw-bold p-0 text-success fs-5" id="goSingUp">
+                sing up
+              </button>
+            </p>
+            <div class="icons">
+              <i class="bg-success-subtle fs-4 p-2 opacity-75 fa-brands fa-app-store-ios"></i>
+              <i class="bg-success-subtle fs-4 p-2 opacity-75 fa-brands fa-linkedin"></i>
+              <i class="bg-success-subtle fs-4 p-2 opacity-75 fa-brands fa-twitter"></i>
+              <i class="bg-success-subtle fs-4 p-2 opacity-75 fa-brands fa-google"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <img class="img-fluid" src="imgs/Login-bro.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

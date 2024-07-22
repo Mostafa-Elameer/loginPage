@@ -1,0 +1,38 @@
+section.bg {
+  background-image: url(../imgs/sarah-dorweiler-x2Tmfd1-SgA-unsplash.jpg);
+  background-position: bottom center;
+  background-size: cover;
+}
+
+@font-face {
+  font-family: "all";
+  src: url(../webfonts/Lora-Regular.ttf);
+}
+a {
+  color: rgb(92, 171, 35) !important;
+}
+body {
+  font-family: all;
+}
+
+img {
+  animation: move 2s infinite ease-in;
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(2%);
+  }
+  20% {
+    transform: translateY(5%);
+  }
+  30% {
+    transform: translateY(5%);
+  }
+  40% {
+    transform: translateY(3%);
+  }
+  50% {
+    transform: translateY(2%);
+  }
+}
